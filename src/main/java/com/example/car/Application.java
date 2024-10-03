@@ -9,10 +9,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class CarApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
